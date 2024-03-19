@@ -1,16 +1,18 @@
 import './App.css';
-import banner from './assets/bannerFeira.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <p className='Titulo'>Feira Digital</p>
-      <p className='introducao'>
-        Vegetais frescos em apenas um clique!
-      </p>
-      <button className='btnIntro'>
-        Conheça já
-      </button>
+    <div className='app'>
+      <div className='apresentacao'>
+        <p id='titulo'>Feira Digital</p>
+        <p id='introducao'>
+          Aqui você pode encontrar vegetais frescos em apenas um clique! Venha explorar 
+          nosso vasto catálogo
+        </p>
+        <button className='btn-intro'>
+          Conheça já
+        </button>
+      </div>
     </div>
   );
 }
